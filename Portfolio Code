@@ -518,4 +518,24 @@ Let’s connect and create something impactful together.</p>
   line-height: clamp(1rem, 2vw, 6rem);
 }
 </style>
+
+<style>
+/* clamp(minimum size, preferred scaling, maximum size) */
+h1 {
+  font-size: clamp(0.5rem, 4vw, 3rem);
+}
+
+h2, h3{
+  font-size: clamp(0.12rem, 2.5vw, 4rem);
+}
+
+.list{
+  font-size: clamp(0.05rem, 1.5vw, 2rem);
+}
+
+p {
+  font-size: clamp(0.1rem, 2vw, 1.2rem);
+  text-shadow:0.5px 0px 2px
+}
+</style>
 </html>
