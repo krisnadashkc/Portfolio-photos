@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<div class="container">
+  <div class="title">
+     <h1>Krisna Cañonero</h1>
+     <h2>Shopify Virtual Assistant&#x1F4BB;</h2> 
+    <p>"Pushing harder plus Pushing smarter; No distinction of the two. <br>To drive success, a great combo has to be the asset."</p>
+  </div>
+     <img class="profilepicture" src="https://avatars.githubusercontent.com/u/238125916?s=400&u=52e40ad9aa06bcc90046f98e33ec996649be898d&v=4"  alt="profile">
+</div>
+
+<style>
+.container h2, .contents p, .container .profilepicture, {
+  opacity: 0;               /* start hidden */
+  transition: opacity 1.75s ease; /* smooth fade-in */
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 10px;
+  color: white;
+  justify-content: center;
+  width: auto;
+  height: 100vh;
+}
+
+.title:hover{
+  color: skyblue;
+  text-shadow: 0 0 10px rgba(0, 191, 255, 0.7);
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+  curser: pointer;
+}
+
+h1 {
+  font-family: Gadget, sans-serif;
+  color: darkwhite;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px gray;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 50px;
+  color: #95BF47;
+  letter-spacing: 1px;
+text-shadow: 2px 2px 3px green;
+  font-style: italic;
+  line-height: 1;
+}
+
+.profilepicture {
+   width: clamp(100px, 35vw, 300px);   /* scales between 150px and 300px */
+  height: clamp(100px, 35vw, 300px);
+  border: 3px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.4);
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur 20px  
+}
+
+.profilepicture:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 191, 255, 0.8);
+  border-color: #00bfff;
+    border-color: skyblue;
+  transition: all 0.3s ease;
+}
+
+body {
+  background-color: #020a12;
+  background-color: #020E08;
+  box-shadow: inset 0 0 100px rgba(0, 191, 255, 0.15);
+  color: white;
+  text-align: center;
+  font-family: Poppins, sans-serif
+}
+</style>
+
+<script>// Function to fade in container content
+function fadeInContainer() {
+  const textDiv = document.querySelector(".container h2");
+  const paragraphs =
+document.querySelectorAll(".contents p");       
+  // select the text div
+  const profileImg = document.querySelector(".container .profilepicture"); // select the image
+
+  // Set opacity to 1 to fade in
+  textDiv.style.opacity = "1"; 
+  paragraphs.forEach(p => {
+    p.style.opacity = "1"
+  });
+  profileImg.style.opacity = "1";
+}
+
+// Run the function when the page loads
+window.onload = fadeInContainer;
+</script>
+
+<div class ="contents">
+<div id="container_1">
+     <h2 class="secondslide"> &#128100;  Professional Summary</h2>
+     <p> I am a well-organized and passionate Shopify Virtual Assistant with experience in product research, product listing, basic Shopify development, and administrative support. </p> <p>I take pride in helping e-commerce businesses run smoothly, grow efficiently, and achieve their goals by providing consistent, detail-oriented assistance. I am committed to delivering high-quality work, timely communication, and practical solutions tailored to each client’s needs.
+</p><p>
+My approach is proactive and collaborative — I don’t just complete tasks; I strive to understand your business, anticipate challenges, and offer support that adds real value. Whether it’s optimizing product listings for better visibility, managing store operations, or handling administrative tasks, my goal is to free up your time so you can focus on growing your business confidently and efficiently.
+</p><p>
+I bring dedication, reliability, and a strong sense of responsibility to every project, and I am eager to contribute to the success of your e-commerce store. </p>
+   </div>
+<style> 
+#container_1{
+  padding: 30px;
+  margin: clamp{20px 20vw 30px};
+  weight: auto;
+  height: 100vh;
+  text-align:justify;
+  font-size: 20px
+  
+}
+.secondslide{
+  text-align: center;
+}
+</style>
+
+
+<div id="container_2">
+     <h2> &#9884; Core Skills and Expertise </h2>
+  <div class="service-container">
+    <div class="service-box">
+      <h3> &#128270; Product Research </h3>
+  <ul class="list">
+    <li>Conducts market analysis using TikTok Creative Center, Google Trends, and Meta Ads Library</li>
+    <li>Identifies winning, evergreen, and trending products with strong sales potential</li>
+    <li>Evaluates product demand, competition, and profitability before listing</li>
+  </ul>
+
+      </div>
+
+    <div class="service-box">
+      <h3> &#128462; Product Listing </h3>
+      <ul class="list">
+    <li>Creates optimized and SEO-driven product titles and descriptions in Shopify</li>
+    <li>Ensures consistent product images, variants, and pricing setup</li>
+    <li>Enhances product visibility and conversion through detailed listing strategies</li>
+  </ul>
+    </div>
+    
+    <div class="service-box">
+      <h3> &#128230;Dropshipping </h3>
+   <ul class="list">
+    <li>Manages supplier sourcing, product importing, and order fulfillment</li>
+    <li>Uses tools like AutoDS and DSers for efficient dropshipping operations</li>
+    <li>Tracks inventory and pricing to maintain profit margins and avoid stock issues</li>
+  </ul>
+    </div>
+    
+    <div class="service-box">
+      <h3> &#128187;Administrative Tasks </h3>
+   <ul class="list">
+    <li>Handles data entry, product uploads, and inventory management accurately</li>
+    <li>Organizes files and maintains Shopify records systematically</li>
+    <li>Supports daily operations using Google Workspace and task management tools</li>
+  </ul>
+  </div>
+</div>
+
+  </div>
+<style>
+#container_2 p{  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  weight: auto;
+  height: 200px;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px
+}
+
+.service-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  width: 380px;
+  padding: 20px 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align:justify;
+}
+
+.service-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.service-box h3 {
+  color: #f5f5f5;
+  margin: 0;
+}
+</style>
+    
+<div id="container_3">
+     <h2> CASE STUDY: Product Research</h2>
+        <h3> Case Study 1: Evergreen Product</h3>
+  <div class="case_study">
+       <div> <img class="case" src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/Shoe-rack-Trend-Analysis.png?raw=true" alt="analysis">
+       <img class="case" src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/Shoe-rack-PPSpy.png?raw=true" alt="PPSpy"> </div>
+      <div>
+        <p class="case_desc">Sample Evergreen Product: Shoe rack</p>
+        <p class="case_desc">Shoe rack shows a search trend that remains steady over the years, classifying it as an evergreen product suitable for long-term store stability and consistent ad campaigns.
+</p>
+        <ul class="list">
+          <li> Price Range: USD 56.99–601.96
+</li>
+          <li>Monthly sales: 20-280 sales
+</li>
+          <li>Monthly Revenue: USD 11.9K–16.9K
+</li>
+          <li>Last Sale Dates: Active as of October 2025
+</li>
+        </ul>
+        <p class="case_desc">These figures show steady product sales across multiple sellers, proving that the item sustains long-term performance rather than short-term hype.
+</p>
+      </div> 
+      </div>
+    <div class="case_study">
+       <div> <img class="case" src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/shoerack-suppliers-price.png?raw=true" alt="supplier_price">
+       <img class="case" src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/sho-rack-meta-ad.png?raw=true" alt="meta-ad"> </div>
+      <div>
+        <p class="case_desc">In this case for a 3-tier Shoe having 209 monthly sales, it is found to be profitable with the same product selling at Aliexpress and Alibaba for lower prices.
+</p>
+        <ul class="list">
+          <li> Average Cost: USD 4–16 per unit
+</li>
+          <li>Shipping (estimate): USD 5–10
+</li>
+          <li>Retail Price: USD 56.99
+</li>
+          <li>Estimated Gross Profit: ~$30–$40 per sale (around 70–80% margin)
+</li>
+        </ul>
+        <p class="case_desc">Strong profit margin allows room for paid advertising while still maintaining healthy ROI. The product also shows 77 active sales in Meta Ad Library, indicating consistent demand and ad performance.
+</p>
+      </div> 
+      </div>
+
+  <h2> CASE STUDY: Product Research </h2>
+        <h3> Case Study 2: Seasonal Product</h3>
+  <div class="case_study">
+       <div> <img class="case" src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/christmas_decor_trend_analysis.png?raw=true" alt="analysis">
+       <img class="case" src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/Christmas-decor-PPSpy.png?raw=true" alt="PPSpy"> </div>
+      <div>
+        <p class="case_desc">Sample Evergreen Product: Shoe rack</p>
+        <p class="case_desc">Product Research: Christmas Decor (Seasonal Product Discovery)Christmas-themed product show a strong rise in sales during the last quarter of the year, classifying them as seasonal products ideal for short-term campaigns and festive promotions.
+
+</p>
+        <ul class="list">
+          <li> Price Range: USD 14.99–38
+</li>
+          <li>Monthly Sales: 173–311 sales
+</li>
+          <li>Monthly Revenue: USD 2.6K–7.6K
+</li>
+          <li>Last Sale Dates: Active as of October 2025
+</li>
+        </ul>
+        <p class="case_desc">Data indicates a strong seasonal spike in engagement and sales for Christmas decor, making it a profitable product category for short-term campaigns during the festive period. These items perform best when launched ahead of the holiday rush, supported by visually appealing and emotion-driven marketing.
+
+</p>
+      </div> 
+      </div>
+    <div class="case_study">
+       <div> <img class="case" src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/decor-prices.png?raw=true" alt="supplier_price">
+       <img class="case" src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/decor-meta-ad.png?raw=tru" alt="meta-ad"> </div>
+      <div>
+
+        <p class="case_desc">In this case for Christmas balls and ornaments, the product shows strong market potential with consistent seasonal demand during Q4. Similar items are listed on Shopify stores for USD 14.99–38, while they can be sourced on AliExpress and Alibaba for much lower prices — as low as USD 0.59–0.99 per set.
+</p>
+        <ul class="list">
+          <li> Average Cost: USD 0.59–0.99 per set
+</li>
+          <li>Shipping (estimate): USD 3–6
+</li>
+          <li>Retail Price: USD 14.99–38
+</li>
+          <li>Estimated Gross Profit: ~$10–30 per sale (around 70–85% margin)
+</li>
+        </ul>
+        <p class="case_desc">The low sourcing cost and strong seasonal demand make Christmas decor a high-margin product, ideal for short-term campaigns. With 100 active ads in Meta Ad Library, it shows strong advertiser interest and reliable holiday performance.
+</p>
+      </div> 
+      </div>
+</div>
+<style>
+#container_3{
+  color: white;
+  width: auto;
+  height: 100vh;
+  padding-top: 50px;
+  
+}
+
+.case {
+  width: clamp(10vh, 40vw, 480px);
+  height: auto;
+  border: 3px solid skyblue;
+  display: flex;
+}
+
+.case_study{
+  font-size: clamp(0.1rem, 1.5vw, 1.2rem);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  padding: 30px;
+  padding-top: 1px;
+}
+
+.case_desc, .list{
+  text-align: justify;
+}
+</style>
+  
+  
+<div id="container_4">
+     <h2> Product Listing and Customization</h2>
+  <div class="content_4">
+    <div>
+      <p> I specialize in creating visually appealing and high-converting product listings on Shopify.
+Each listing is customized with optimized titles, descriptions, and images to ensure consistency
+with brand identity and enhance the shopping experience. </p>
+    <ul>
+  <li>Conduct keyword research to integrate high-performing SEO keywords into product titles and descriptions.</li>
+  <li>Write clear, persuasive, and benefit-focused copy to drive engagement and conversions.</li>
+  <li>Optimize product images by using high-resolution visuals and descriptive alt texts for SEO ranking.</li>
+  <li>Structure product variants, tags, and collections for easy navigation and improved discoverability.</li>
+  <li>Apply pricing psychology and strong call-to-actions to encourage add-to-cart behavior.</li>
+  <li>Maintain consistent tone, formatting, and branding across all listings to build customer trust.</li>
+</ul>
+    </div>
+    <div class="photos_4">
+      <img class="custom" src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/Homepage-sample.png?raw=true" alt="home page">
+       <img class="custom" src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/productpage-sample.png?raw=true" alt="product page">
+  </div>
+  </div>
+</div>
+<style>
+#container_4{
+  color: white;
+  margin:30px;
+  padding-top: 1400px;
+  height: 100vh;
+  width:auto;
+}
+
+.custom{
+  width: clamp(10vh, 35vw, 480px);
+  height: auto;
+  gap:8px;
+}
+
+.content_4{
+  display:flex;
+  gap:30px;
+  text-align:justify;
+  font-size: clamp(0.2rem, 1.5vw, 1.2rem);
+  align-items: center;  
+}
+</style>
+
+<div id="container_5">
+     <h2> Technical Proficiencies </h2>
+  <ul class="Tech">
+    <li class="list_5"> eCommerce Platform </li>
+      <p> Shopify (Product Setup, Collections, Variants, Themes), WooCommerce, eBay </p>
+    <li class="list_5"> Product Research Tools </li>
+      <p> AliExpress, Alibaba, TikTok Creative Center, Meta Ad Library, Amazon Best Sellers, Google Trends </p>
+    <li class="list_5"> SEO & Optimization </li>
+      <p> Google Keyword Planner, ChatGPT (content optimization), Ubersuggest, Grammarly </p>
+    <li class="list_5"> Design & Branding </li>
+      <p> Canva, Photoshop (basic editing, resizing, background removal) </p>
+     <li class="list_5"> Marketing and Automation </li>
+      <p> Klaviyo (email flows, segmentation), Facebook Ads Manager, Google Analytics </p>
+    <li class="list_5"> Data and Organization </li>
+      <p> Google Sheets, Excel (product tracking, profit margin analysis), Notion, Trello </p>
+    
+  <ul>
+</div>
+<style>
+#container_5 {
+  color: white;
+  width: auto;
+  height: 100vh;
+  padding-top: 60px;  
+}
+
+#container_5 p{
+  text-align:justify;
+  font-size: clamp(0.2rem, 1.8vw, 1.5rem);
+  padding-left: 50px
+}
+
+.list_5 {
+  font-style: Gadget;
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+  background: #084C4A;
+  font-size: clamp(0.2rem, 1.5vw, 1.2rem);
+  color: white;
+}
+</style>
+
+<div id="container_6">
+     <h2> eCommerce Industry Knowledge </h2>
+      <p> The e-commerce landscape is evolving fast, driven by social media trends, data-driven ads, and consumer demand for quick, seamless shopping experiences. I stay updated with these shifts to make informed product and marketing decisions. </p>
+<ul class="list">
+  <li> <b> Social Commerce Growth: </b> <br>Short-form videos and live selling are redefining product discovery.</li>
+
+  <li> <b>Trust & Optimization:</b><br> Authentic branding, strong reviews, and optimized listings drive conversions.</li>
+
+  <li><b>Market Trends: </b><br> Seasonal demand, sustainability, and practical product choices remain top priorities.</li>
+
+  <li><b>Platform Updates: </b><br> Adapting to new tools and analytics in Shopify, Meta Ads, and TikTok Shop for better performance.</li> </ul>
+
+<p> By aligning strategies with current market behavior, I help ensure every product remains competitive and relevant.
+ </p>
+</div>
+<style> #container_6{
+  color: white;
+  width: auto;
+  height: 450px;
+  padding-top: 200px;
+  margin: 30px;
+}
+
+#container_6 p{
+  text-align: justify;
+}
+</style>
+
+<div id="container_7">
+<h2> Tools Used </h2>
+<p> Key software and platforms employed to support data-driven decision-making and optimized workflows. </p>
+  
+  <div class="tools">
+ <img class="tools_img" src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/tool1.png?raw=true" alt="tools">
+ <img class="tools_img" src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/tool2.png?raw=true" alt="tools">
+ <img class="tools_img"src="https://github.com/krisnadashkc/Portfolio-photos/blob/main/tool3.png?raw=true" alt="tools">
+
+  </div>
+</div>
+<style>
+#container_7{
+  color: white;
+  margin: 30px;
+  height: 350px;
+}
+
+.tools_img{
+  width: clamp(50px, 25vw, 300px);   /* scales between 150px and 300px */
+  height: clamp(50px, 25vw, 300px);
+}
+</style>
+
+<div id="container_8">
+<h2> LET'S COLLABORATE</h2>
+  <p>I’m always open to new opportunities, collaborations, and exciting projects.
+Let’s connect and create something impactful together.</p>
+  <div class="contact">
+    <div>
+
+      <p><i>&#x1F4DE; Mobile:</i> </p>
+      <p>&#x1F4E9; <i>Email Address:</i>  </p>
+  <p><i>&#x1F4BC; OnlineJobs.ph Account:</i> 
+    </p> 
+      <p> <i> Curriculum Vitae:</i> </p></div>
+  
+<div> 
+  <p>+63-993-379-0912</p>
+  <p> krisnadashkc@gmail.com</p>
+  <p> https://www.onlinejobs.ph/jobseekers/info/4518601 </p> 
+  <p> 
+</div>
+</div>
+</div>
+<style>
+#container_8{
+  padding-top: 50px;
+  color: white;
+  width: auto;
+  height: 450px;
+  text-align: justify;
+  margin:30px;  
+}
+
+.contact{
+  display: flex;
+  gap: 40px;
+  line-height: clamp(1rem, 2vw, 6rem);
+}
+</style>
+</html>
